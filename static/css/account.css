@@ -1,0 +1,50 @@
+p {
+    margin-bottom: 0 !important;
+}
+
+.card-tag {
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+.card-tag>button:last-child {
+    padding: 0 10px 0 0;
+}
+
+.card-tag>button>i {
+    color: black;
+}
+
+.card-tag>button>i:hover {
+    color: red;
+}
+
+#info>table>tbody>tr {
+    height: 60px;
+    vertical-align: middle;
+}
+
+#welcome>hr {
+    box-shadow: 0 2px 5px 1px black;
+}
+
+#name {
+    display: inline;
+}
+
+#card-digest #iccid {
+    font-size: 0.875rem;
+    color: #6c757d;
+    padding-bottom: 15px;
+}
+
+#card-digest #iccid::before {
+    content: 'ICCID: ';
+}
+
+.main {
+    min-width: 500px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}

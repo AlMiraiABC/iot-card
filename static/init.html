@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Card Initialization</title>
+    <link rel="stylesheet" href="./css/init.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
+    <script src="./js/utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <div class="main">
+        <form class="main-form" method="post" accept-charset="utf-8" enctype="application/x-www-form-urlencoded"
+                    onsubmit="return false;" novalidate>
+            <div class="config-group" data-bs-toggle="collapse" data-bs-target="#collapseAccount" role="button"
+                aria-expanded="false" aria-controls="collapeAccount">
+                <h3>Account</h3>
+                <div class="form-text">Configuration to log in as administrator.</div>
+            </div>
+            <div class="collapse show" id="collapseAccount">
+                <div class="row mb-3">
+                    <label for="account-email" class="col-sm-3 col-form-label">Email address</label>
+                    <div class="col-sm-8">
+                        <input type="email" class="form-control" id="account-email" aria-describedby="emailHelp"
+                            autocomplete="email" required placeholder="iotcard@example.com">
+                        <div id="emailHelp" class="form-text">It is administrator with highest authority.</div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="account-name" class="col-sm-3 col-form-label">Nick Name</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="account-name" autocomplete="nickname">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="account-password" class="col-sm-3 col-form-label">Password</label>
+                    <div class="col-sm-8">
+                        <input type="password" class="form-control" id="account-password" autocomplete="new-password"
+                            required>
+                    </div>
+                </div>
+            </div>
+            <div class="config-group" data-bs-toggle="collapse" data-bs-target="#collapseServer" role="button"
+                aria-expanded="false" aria-controls="collapseServer">
+                <h3>Server</h3>
+                <div class="form-text">Configuration for mail server.</div>
+            </div>
+            <div class="collapse show" id="collapseServer">
+                <datalist id="smtp-list">
+                    <option value="smtp.qq.com">Tencent QQ</option>
+                    <option value="smtp.exmail.qq.com">Tencent Bissness</option>
+                    <option value="smtp.foxmail.com">Tencent FoxMail</option>
+                    <option value="smtp.163.com">NetEase 163</option>
+                    <option value="smtp.126.com">NetEase 126</option>
+                    <option value="smtp.gmail.com">Google GMail</option>
+                    <option value="smtp-mail.outlook.com">MS Outlook</option>
+                    <option value="smtp.office365.com">MS 365</option>
+                    <option value="smtp.139.com">ChinaMobile 139</option>
+                    <option value="smtp.189.cn">ChinaTelecom 189</option>
+                    <option value="smtp.wo.cn">ChinaUnicom Wo</option>
+                    <option value="smtp.aliyun.com">AliYun</option>
+                    <option value="smtp.aliyun.com">AliYun</option>
+                    <option value="smtp.sina.com.cn">Sina</option>
+                    <option value="smtp.sohu.com">SoHu</option>
+                    <option value="smtp.mail.yahoo.com">Yahoo</option>
+                </datalist>
+                <div class="row mb-3">
+                    <label for="server-host" class="col-sm-3 col-form-label">SMTP host</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="server-host" aria-describedby="hostHelp"
+                            autocomplete="off" required placeholder="smtp.example.com" list="smtp-list">
+                        <div id="hostHelp" class="form-text">
+                            Host or IP address of SMTP server to send email.<br>
+                            <a href="https://datatracker.ietf.org/doc/html/rfc2821">What is SMTP?</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="server-username" class="col-sm-3 col-form-label">Username</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="server-username" aria-describedby="usernameHelp"
+                            autocomplete="off" required>
+                        <div id="usernameHelp" class="form-text">Username to log in SMTP server.</div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="server-passcode" class="col-sm-3 col-form-label">Passcode</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="server-passcode" aria-describedby="passcodeHelp"
+                            autocomplete="off" required>
+                        <div id="passcodeHelp" class="form-text">Password or passcode to log in SMTP server.</div>
+                    </div>
+                </div>
+                <div class="config-group sub-collapse" data-bs-toggle="collapse"
+                    data-bs-target="#collapseServerAdvanced" role="button" aria-expanded="false"
+                    aria-controls="collapseServerAdvanced">
+                    <h5>Advanced</h5>
+                    <div class="form-text">Advanced optional configurations for server.</div>
+                </div>
+                <div class="collapse sub-collapse" id="collapseServerAdvanced">
+                    <div class="row mb-3">
+                        <label for="server-port" class="col-sm-3 col-form-label">SMTP port</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="server-port" aria-describedby="portHelp"
+                                autocomplete="off" required value="587">
+                            <div id="portHelp" class="form-text">
+                                Port to connect to SMTP server.<br>
+                                Commonly used: 25(unsafe), 465(depreciated), 587(newest).
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="server-ssl" class="col-sm-3 col-form-label">SSL</label>
+                        <div class="col-sm-8 form-check form-switch">
+                            <input type="checkbox" class="form-check-input" id="server-ssl" role="switch"
+                                autocomplete="off" checked>
+                            <div id="sslHelp" class="form-text">
+                                Using SSL to connect to SMTP server or not.<br>
+                                Most of email services support SSL. Such as outlook, 163, qq, gmail
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="config-group" data-bs-toggle="collapse" data-bs-target="#collapseSender" role="button"
+                aria-expanded="false" aria-controls="collapseSender">
+                <h3>Sender</h3>
+                <div class="form-text">Configuration for mail sender.</div>
+            </div>
+            <div class="collapse show" id="collapseSender">
+                <div class="row mb-3">
+                    <label for="sender-email" class="col-sm-3 col-form-label">Email address</label>
+                    <div class="col-sm-8">
+                        <input type="email" class="form-control" id="sender-email" aria-describedby="s-emailHelp"
+                            autocomplete="email" required placeholder="iotcard@example.com">
+                        <div id="s-emailHelp" class="form-text">Email address who send emails. It may be same as <a
+                                href="#server-username">SMTP server's login username.</a></div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="sender-name" class="col-sm-3 col-form-label">Nick Name</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="sender-name" autocomplete="nickname">
+                    </div>
+                </div>
+            </div>
+            <div class="config-group" data-bs-toggle="collapse" data-bs-target="#collapseApp" role="button"
+                aria-expanded="false" aria-controls="collapeApp">
+                <h3>Project/App</h3>
+                <div class="form-text">
+                    Configuration for project.<br>
+                    <strong class="text-danger">DO NOT</strong> modify these if you don't know what you are doing.
+                </div>
+            </div>
+            <div class="collapse" id="collapseApp">
+                <div class="row mb-3">
+                    <label for="app-salt" class="col-sm-3 col-form-label">Salt</label>
+                    <div class="col-sm-8">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="app-salt" aria-describedby="saltHelp"
+                                autocomplete="off" required>
+                            <button type="button" class="btn btn-outline-secondary" id="refresh-token">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z" />
+                                    <path
+                                        d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div id="saltHelp" class="form-text">This salt is used to generate authorization tokens.</div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="app-alg" class="col-sm-3 col-form-label">Algorithm</label>
+                    <div class="col-sm-8">
+                        <!-- <input type="text" class="form-control" id="app-alg" autocomplete="off" required aria-describedby="algHelp"> -->
+                        <select class="form-select" id="app-alg" aria-describedby="algHelp">
+                            <option value="HS256" selected>HMAC using SHA-256 hash</option>
+                            <option value="HS384">HMAC using SHA-384 hash</option>
+                            <option value="HS512">HMAC using SHA-512 hash</option>
+                        </select>
+                        <div id="algHelp" class="form-text">
+                            This algorithm is used to generate authorization tokens.
+                            <br>
+                            Only supports HMAC.
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="app-exp" class="col-sm-3 col-form-label">Token Max Age</label>
+                    <div class="col-sm-8">
+                        <div class="input-group">
+                            <input type="number" class="form-control" id="app-exp" aria-describedby="expHelp"
+                                autocomplete="off" required min="60" value="3600">
+                            <span class="input-group-text">seconds</span>
+                        </div>
+                        <div id="expHelp" class="form-text">
+                            Token alive max age seconds.<br>
+                            After this seconds, then token will be expired and user should re-login.
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="app-freq" class="col-sm-3 col-form-label">Default Email Frequency</label>
+                    <div class="col-sm-8">
+                        <div class="input-group">
+                            <input type="number" class="form-control" id="app-freq" aria-describedby="freqHelp"
+                                autocomplete="off" required min="1" value="7">
+                            <span class="input-group-text">days</span>
+                        </div>
+                        <div id="freqHelp" class="form-text">
+                            Default email send frequency days when user registered.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-footer">
+                <button id="submit" type="button" class="btn btn-primary">Ready GO!</button>
+            </div>
+        </form>
+    </div>
+    <script src="./js/init.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>

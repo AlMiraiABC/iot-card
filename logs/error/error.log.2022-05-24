@@ -1,0 +1,170 @@
+2022-05-27 13:15:09,702[ERROR]C:\Users\刘朝\Desktop\ps\services\email_service.py:send_all:177:7684-38372:occured an exception to mr_liuzhao@126.com with card 24687
+2022-05-27 13:15:09,879[ERROR]C:\Users\刘朝\Desktop\ps\services\email_service.py:send_all:177:7684-38372:occured an exception to mr_liuzhao@126.com with card 24686
+2022-05-27 13:21:28,899[ERROR]c:\Users\刘朝\Desktop\ps\services\email_service.py:send_all:177:34800-38580:occured an exception to mr_liuzhao@126.com with card 24687
+2022-05-27 13:21:29,160[ERROR]c:\Users\刘朝\Desktop\ps\services\email_service.py:send_all:177:34800-38580:occured an exception to mr_liuzhao@126.com with card 24686
+2022-05-27 13:22:10,698[ERROR]c:\Users\刘朝\Desktop\ps\services\email_service.py:send_all:177:37340-41940:occured an exception to mr_liuzhao@126.com with card 24687
+2022-05-27 13:22:11,060[ERROR]c:\Users\刘朝\Desktop\ps\services\email_service.py:send_all:177:37340-41940:occured an exception to mr_liuzhao@126.com with card 24686
+2022-05-27 13:23:17,862[ERROR]c:\Users\刘朝\Desktop\ps\services\email_service.py:send_all:177:39892-37044:occured an exception 'digest' is undefined to mr_liuzhao@126.com with card 24687
+2022-05-27 13:23:18,134[ERROR]c:\Users\刘朝\Desktop\ps\services\email_service.py:send_all:177:39892-37044:occured an exception 'walletEntity' to mr_liuzhao@126.com with card 24686
+2022-05-27 13:30:17,393[WARNING]D:\Python310\lib\asyncio\base_events.py:_run_once:1891:36848-41684:Executing <Task pending name='Task-1' coro=<IsolatedAsyncioTestCase._asyncioLoopRunner() running at D:\Python310\lib\unittest\async_case.py:101> created at D:\Python310\lib\unittest\async_case.py:117> took 45.875 seconds
+2022-05-27 13:30:28,986[ERROR]c:\Users\刘朝\Desktop\ps\services\email_service.py:send_all:177:36848-41684:occured an exception 'walletEntity' to mr_liuzhao@126.com with card 24686
+2022-05-27 13:30:28,996[WARNING]D:\Python310\lib\asyncio\base_events.py:_run_once:1891:36848-41684:Executing <Task pending name='Task-1' coro=<IsolatedAsyncioTestCase._asyncioLoopRunner() running at D:\Python310\lib\unittest\async_case.py:95> wait_for=<Future pending cb=[Task.task_wakeup()] created at D:\Python310\lib\asyncio\base_events.py:429> created at D:\Python310\lib\unittest\async_case.py:117> took 11.250 seconds
+2022-05-27 13:32:18,337[WARNING]D:\Python310\lib\asyncio\base_events.py:_run_once:1891:36020-27496:Executing <Task finished name='Task-5' coro=<Query.get_digest() done, defined at c:\Users\刘朝\Desktop\ps\iot_card\query.py:62> result={'balance': 18.5, 'card': 24687, 'expired': '2022-05-31', 'iccid': '8986062126009424687', ...} created at D:\Python310\lib\site-packages\al_utils\alru.py:172> took 36.782 seconds
+2022-05-27 13:32:18,825[WARNING]D:\Python310\lib\asyncio\base_events.py:_run_once:1891:36020-27496:Executing <Task pending name='Task-1' coro=<IsolatedAsyncioTestCase._asyncioLoopRunner() running at D:\Python310\lib\unittest\async_case.py:101> created at D:\Python310\lib\unittest\async_case.py:117> took 0.485 seconds
+2022-05-27 13:37:33,325[WARNING]D:\Python310\lib\asyncio\base_events.py:_run_once:1891:12824-37352:Executing <Task finished name='Task-5' coro=<Query.get_digest() done, defined at c:\Users\刘朝\Desktop\ps\iot_card\query.py:62> result={'balance': 18.5, 'card': 24687, 'expired': '2022-05-31', 'iccid': '8986062126009424687', ...} created at D:\Python310\lib\site-packages\al_utils\alru.py:172> took 17.375 seconds
+2022-05-27 13:38:21,273[WARNING]D:\Python310\lib\asyncio\base_events.py:_run_once:1891:12824-37352:Executing <Task pending name='Task-1' coro=<IsolatedAsyncioTestCase._asyncioLoopRunner() running at D:\Python310\lib\unittest\async_case.py:101> created at D:\Python310\lib\unittest\async_case.py:117> took 47.937 seconds
+2022-05-27 13:38:27,538[WARNING]D:\Python310\lib\asyncio\base_events.py:_run_once:1891:12824-37352:Executing <Task finished name='Task-13' coro=<Query.get_digest() done, defined at c:\Users\刘朝\Desktop\ps\iot_card\query.py:62> exception=KeyError('walletEntity') created at D:\Python310\lib\site-packages\al_utils\alru.py:172> took 5.969 seconds
+2022-05-27 13:38:36,737[ERROR]c:\Users\刘朝\Desktop\ps\services\email_service.py:send_all:177:12824-37352:occured an exception 'walletEntity' to mr_liuzhao@126.com with card 24686
+2022-05-27 13:39:22,629[WARNING]D:\Python310\lib\asyncio\base_events.py:_run_once:1891:12824-37352:Executing <Task pending name='Task-1' coro=<IsolatedAsyncioTestCase._asyncioLoopRunner() running at D:\Python310\lib\unittest\async_case.py:95> wait_for=<Future pending cb=[Task.task_wakeup()] created at D:\Python310\lib\asyncio\base_events.py:429> created at D:\Python310\lib\unittest\async_case.py:117> took 55.078 seconds
+2022-05-27 13:41:24,095[ERROR]D:\Python310\lib\site-packages\aiohttp\web_protocol.py:log_exception:405:37980-37120:Error handling request
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\aiohttp\web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "D:\Python310\lib\site-packages\aiohttp\web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "D:\Python310\lib\site-packages\aiohttp_jinja2\__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "app.py", line 49, in digest
+    return {'digest': await query.get_digest()}
+  File "D:\Python310\lib\site-packages\al_utils\alru.py", line 184, in wrapped
+    return await asyncio.shield(fut)
+  File "C:\Users\刘朝\Desktop\ps\iot_card\query.py", line 67, in get_digest
+    digest["balance"] = account["walletEntity"]["moneyBalance"]
+KeyError: 'walletEntity'
+2022-05-27 13:42:12,631[WARNING]D:\Python310\lib\asyncio\base_events.py:_run_once:1891:41568-42112:Executing <Task pending name='Task-1' coro=<IsolatedAsyncioTestCase._asyncioLoopRunner() running at D:\Python310\lib\unittest\async_case.py:101> created at D:\Python310\lib\unittest\async_case.py:117> took 1.531 seconds
+2022-05-27 13:42:13,506[WARNING]D:\Python310\lib\asyncio\base_events.py:_run_once:1891:41568-42112:Executing <Task pending name='Task-1' coro=<IsolatedAsyncioTestCase._asyncioLoopRunner() running at D:\Python310\lib\unittest\async_case.py:101> created at D:\Python310\lib\unittest\async_case.py:117> took 0.453 seconds
+2022-05-27 20:37:16,692[ERROR]C:\Users\刘朝\Desktop\ps\services\email_service.py:send_all:192:42252-40992:occured an exception cannot unpack non-iterable coroutine object to mr_liuzhao@126.com with card 24687
+2022-05-27 20:37:16,782[ERROR]C:\Users\刘朝\Desktop\ps\services\email_service.py:send_all:192:42252-40992:occured an exception cannot unpack non-iterable coroutine object to mr_liuzhao@126.com with card 24689
+2022-05-28 02:02:27,723[ERROR]/usr/local/lib/python3.10/site-packages/aiohttp/web_protocol.py:log_exception:405:1338-140539879660360:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/usr/local/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 136, in render_string
+    template, context = _render_string(template_name, request, context, app_key)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 116, in _render_string
+    template = env.get_template(template_name)
+  File "/usr/local/lib/python3.10/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/usr/local/lib/python3.10/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/usr/local/lib/python3.10/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "/usr/local/lib/python3.10/site-packages/jinja2/environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "/usr/local/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "templates/manage.j2", line 33, in template
+    <td>{{receiver['last_time']</td>
+jinja2.exceptions.TemplateSyntaxError: unexpected '/'
+2022-05-29 13:43:38,902[ERROR]/workspaces/iot-card/services/email_service.py:send_all:82:31558-140711676607304:occured an exception 'EmailService' object has no attribute 'format_receiver' to email1 with card 1
+2022-05-29 13:43:38,933[ERROR]/workspaces/iot-card/services/email_service.py:send_all:82:31558-140711676607304:occured an exception 'EmailService' object has no attribute 'format_receiver' to email1 with card 2
+2022-05-29 13:57:37,575[ERROR]/workspaces/iot-card/services/email_service.py:send_all:82:32509-140185360620360:occured an exception 'EmailService' object has no attribute 'format_receiver' to email1 with card 1
+2022-05-29 13:57:37,600[ERROR]/workspaces/iot-card/services/email_service.py:send_all:82:32509-140185360620360:occured an exception 'EmailService' object has no attribute 'format_receiver' to email1 with card 2
+2022-05-29 14:24:27,586[WARNING]/workspaces/iot-card/services/account_service.py:login:53:2016-140303186791240:Log in failed with email test@example.com, 'AccountService' object has no attribute 'account'
+2022-05-29 14:28:59,511[WARNING]/workspaces/iot-card/services/account_service.py:login:53:2383-140425030454088:Log in failed with email test@example.com, 'AccountService' object has no attribute 'account'
+2022-05-29 14:33:09,192[WARNING]/workspaces/iot-card/services/account_service.py:login:53:2701-140611410402120:Log in failed with email test@example.com, 'AccountService' object has no attribute 'app_config'
+2022-05-29 14:46:12,117[WARNING]/workspaces/iot-card/services/account_service.py:login:54:3614-140451378502472:Log in failed with email test@example.com, 'AccountService' object has no attribute 'account'
+2022-05-29 14:57:58,955[WARNING]/workspaces/iot-card/services/account_service.py:login:54:4415-140682594401096:Log in failed with email test@example.com, 'AccountService' object has no attribute 'account'
+2022-05-29 15:09:08,438[WARNING]/workspaces/iot-card/services/account_service.py:login:54:5216-140465216871240:Log in failed with email test@example.com, 'AccountService' object has no attribute 'account'
+2022-05-29 15:17:00,209[WARNING]/workspaces/iot-card/services/account_service.py:login:54:5753-139677125208904:Log in failed with email test@example.com, 'AccountService' object has no attribute 'app_config'
+2022-05-29 15:21:20,124[ERROR]/workspaces/iot-card/services/email_service.py:send_all:82:6131-140611539209032:occured an exception 'walletEntity' to email1 with card 1
+2022-05-29 15:21:20,555[ERROR]/workspaces/iot-card/services/email_service.py:send_all:82:6131-140611539209032:occured an exception 'walletEntity' to email1 with card 2
+2022-05-30 04:58:19,259[ERROR]/usr/local/lib/python3.10/site-packages/aiohttp/web_protocol.py:log_exception:405:12457-140047403957064:Error handling request
+Traceback (most recent call last):
+  File "/workspaces/iot-card/web/middlewares.py", line 32, in base_exception_middleware
+    return await handler(request)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_urldispatcher.py", line 931, in _handle
+    raise self._http_exception
+aiohttp.web_exceptions.HTTPNotFound: Not Found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_middlewares.py", line 117, in impl
+    return await handler(request)
+  File "/workspaces/iot-card/web/middlewares.py", line 33, in base_exception_middleware
+    except HTTPSuccessful | HTTPRedirection | HTTPClientError as ex:
+TypeError: catching classes that do not inherit from BaseException is not allowed
+2022-05-30 04:58:43,052[ERROR]/usr/local/lib/python3.10/site-packages/aiohttp/web_protocol.py:log_exception:405:12457-140047403957064:Error handling request
+Traceback (most recent call last):
+  File "/workspaces/iot-card/web/middlewares.py", line 32, in base_exception_middleware
+    return await handler(request)
+  File "app.py", line 41, in login
+    account = Account()
+  File "/usr/local/lib/python3.10/site-packages/al_utils/singleton.py", line 9, in __call__
+    return add_type(cls, container=DEFAULT_CONTAINER_NAME, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/al_utils/singleton.py", line 73, in add_type
+    c[t] = super(
+TypeError: Account.__init__() missing 1 required positional argument: 'email'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_middlewares.py", line 117, in impl
+    return await handler(request)
+  File "/workspaces/iot-card/web/middlewares.py", line 33, in base_exception_middleware
+    except HTTPSuccessful | HTTPRedirection | HTTPClientError as ex:
+TypeError: catching classes that do not inherit from BaseException is not allowed
+2022-05-30 05:00:59,593[ERROR]/usr/local/lib/python3.10/site-packages/aiohttp/web_protocol.py:log_exception:405:12869-140212620741448:Error handling request
+Traceback (most recent call last):
+  File "/workspaces/iot-card/web/middlewares.py", line 32, in base_exception_middleware
+    return await handler(request)
+  File "app.py", line 41, in login
+    account = Account()
+TypeError: Account.__init__() missing 1 required positional argument: 'email'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_middlewares.py", line 117, in impl
+    return await handler(request)
+  File "/workspaces/iot-card/web/middlewares.py", line 33, in base_exception_middleware
+    except HTTPSuccessful | HTTPRedirection | HTTPClientError as ex:
+TypeError: catching classes that do not inherit from BaseException is not allowed
+2022-05-30 05:06:27,269[ERROR]/workspaces/iot-card/web/middlewares.py:base_exception_middleware:36:13577-139893899946824:Occured an exception <METHOD: POST> <PATH: /login> <BODY: >. Account.__init__() missing 1 required positional argument: 'email'
+2022-05-30 06:39:09,598[ERROR]/workspaces/iot-card/web/middlewares.py:base_exception_middleware:36:24206-139633470077768:Occured an exception <METHOD: POST> <PATH: /login> <BODY: >. Account.__init__() missing 1 required positional argument: 'email'
+2022-05-30 06:55:47,730[ERROR]/workspaces/iot-card/web/middlewares.py:base_exception_middleware:36:26397-140307228089160:Occured an exception <METHOD: POST> <PATH: /login> <BODY: >. Email haozhennan@outlook.com doesn't exist. Please create it firstly.
+2022-05-30 06:58:27,502[WARNING]app.py:login:51:26810-140016757807944:Occured an exception when login with haozhennan@outlook.com. Email haozhennan@outlook.com doesn't exist. Please create it firstly.
+2022-05-30 06:58:59,771[WARNING]app.py:login:51:26810-140016757807944:Occured an exception when login with haozhennan@outlook.com. Email haozhennan@outlook.com doesn't exist. Please create it firstly.
+2022-05-30 07:00:48,744[WARNING]app.py:login:51:26810-140016757807944:Occured an exception when login with haozhennan@outlook.com. Email haozhennan@outlook.com doesn't exist. Please create it firstly.
+2022-05-30 07:01:05,331[WARNING]app.py:login:51:26810-140016757807944:Occured an exception when login with haozhennan@outlook.com. Email haozhennan@outlook.com doesn't exist. Please create it firstly.
+2022-05-30 07:01:51,444[WARNING]app.py:login:51:26810-140016757807944:Occured an exception when login with haozhennan@outlook.com. Email haozhennan@outlook.com doesn't exist. Please create it firstly.
+2022-05-30 07:02:05,098[WARNING]app.py:login:51:26810-140016757807944:Occured an exception when login with . Email cannot be empty. But got ``
+2022-05-30 07:06:21,404[WARNING]app.py:login:51:27988-140075258637128:Occured an exception when login with live.almirai@outlook.com. 'Account' object has no attribute 'password'
+2022-05-30 07:08:47,673[WARNING]app.py:login:51:28352-139981378190152:Occured an exception when login with live.almirai@outlook.com. 'alg'
+2022-05-30 07:09:13,515[WARNING]app.py:login:51:28352-139981378190152:Occured an exception when login with live.almirai@outlook.com. 'alg'
+2022-05-30 07:10:44,133[WARNING]app.py:login:51:28352-139981378190152:Occured an exception when login with live.almirai@outlook.com. 'alg'
+2022-05-30 07:15:02,800[WARNING]/workspaces/iot-card/web/middlewares.py:login_middleware:18:29000-140468706577224:Token not found. Please re-login
+2022-05-30 07:32:05,696[ERROR]/workspaces/iot-card/web/middlewares.py:base_exception_middleware:54:31573-140182078393160:Occured an exception <METHOD: GET> <PATH: /email/> <BODY: >. 'EmailService' object has no attribute 'sender'
+2022-05-30 07:32:06,787[ERROR]/workspaces/iot-card/web/middlewares.py:base_exception_middleware:54:31573-140182078393160:Occured an exception <METHOD: GET> <PATH: /email/> <BODY: >. 'EmailService' object has no attribute 'sender'
+2022-05-30 07:32:11,852[ERROR]/workspaces/iot-card/web/middlewares.py:base_exception_middleware:54:31573-140182078393160:Occured an exception <METHOD: GET> <PATH: /email/> <BODY: >. 'EmailService' object has no attribute 'sender'
+2022-05-30 07:32:41,920[ERROR]/workspaces/iot-card/web/middlewares.py:base_exception_middleware:54:31573-140182078393160:Occured an exception <METHOD: GET> <PATH: /email/> <BODY: >. 'EmailService' object has no attribute 'sender'
+2022-05-30 07:33:41,973[ERROR]/workspaces/iot-card/web/middlewares.py:base_exception_middleware:54:31573-140182078393160:Occured an exception <METHOD: GET> <PATH: /email/> <BODY: >. 'EmailService' object has no attribute 'sender'
+2022-05-30 07:35:06,187[ERROR]/workspaces/iot-card/web/middlewares.py:base_exception_middleware:54:31573-140182078393160:Occured an exception <METHOD: GET> <PATH: /email/> <BODY: >. 'EmailService' object has no attribute 'sender'
+2022-05-30 07:35:16,959[ERROR]/workspaces/iot-card/web/middlewares.py:base_exception_middleware:54:31573-140182078393160:Occured an exception <METHOD: GET> <PATH: /email/> <BODY: >. 'EmailService' object has no attribute 'sender'
+2022-05-30 07:35:18,057[ERROR]/workspaces/iot-card/web/middlewares.py:base_exception_middleware:54:31573-140182078393160:Occured an exception <METHOD: GET> <PATH: /email/> <BODY: >. 'EmailService' object has no attribute 'sender'
+2022-05-30 07:35:23,101[ERROR]/workspaces/iot-card/web/middlewares.py:base_exception_middleware:54:31573-140182078393160:Occured an exception <METHOD: GET> <PATH: /email/> <BODY: >. 'EmailService' object has no attribute 'sender'
+2022-05-30 07:35:53,157[ERROR]/workspaces/iot-card/web/middlewares.py:base_exception_middleware:54:31573-140182078393160:Occured an exception <METHOD: GET> <PATH: /email/> <BODY: >. 'EmailService' object has no attribute 'sender'
+2022-05-30 07:37:01,670[ERROR]/workspaces/iot-card/web/middlewares.py:base_exception_middleware:54:31573-140182078393160:Occured an exception <METHOD: GET> <PATH: /email/> <BODY: >. 'EmailService' object has no attribute 'sender'
+2022-05-30 07:37:17,560[ERROR]/workspaces/iot-card/web/middlewares.py:base_exception_middleware:54:31573-140182078393160:Occured an exception <METHOD: GET> <PATH: /email/> <BODY: >. 'EmailService' object has no attribute 'sender'
+2022-05-30 07:37:20,311[ERROR]/workspaces/iot-card/web/middlewares.py:base_exception_middleware:54:31573-140182078393160:Occured an exception <METHOD: GET> <PATH: /email/> <BODY: >. 'EmailService' object has no attribute 'sender'
+2022-05-30 07:37:21,460[ERROR]/workspaces/iot-card/web/middlewares.py:base_exception_middleware:54:31573-140182078393160:Occured an exception <METHOD: GET> <PATH: /email/> <BODY: >. 'EmailService' object has no attribute 'sender'
+2022-05-30 07:37:23,686[ERROR]/workspaces/iot-card/web/middlewares.py:base_exception_middleware:54:31573-140182078393160:Occured an exception <METHOD: GET> <PATH: /email/> <BODY: >. 'EmailService' object has no attribute 'sender'

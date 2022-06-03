@@ -1,0 +1,30 @@
+.main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-form {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.config-group {
+    margin: 40px -40px;
+}
+
+#ssl {
+    width: 3rem;
+    height: 1.5rem;
+}
+
+.sub-collapse {
+    padding-left: 40px;
+}
+
+.input-group-text {
+    width: 100px;
+}
+
+.form-footer {
+    text-align: right;
+}
